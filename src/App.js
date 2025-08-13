@@ -1,10 +1,10 @@
 import { useEffect } from "react";
 import { useTelegram } from "./hooks/useTelegram";
 import "./App.css";
-import Header from "./components/Header/header";
 import { Routes, Route } from "react-router-dom";
 import Catalog from "./components/Catalog/Catalog";
 import Form from "./components/Form/Form";
+import Header from "./components/Header/Header";
 
 function App() {
   const { tg } = useTelegram();

@@ -8,6 +8,7 @@ const Header = () => {
 
   return (
     <div className={"header"}>
+      <p>Welcome to the Telegram Bot Web App!</p>
       <Button onClick={onClose}>Закрыть</Button>
       <span className={"username"}>{user?.username || "Пользователь"}</span>
     </div>

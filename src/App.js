@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useTelegram } from "./hooks/useTelegram";
 import "./App.css";
+import Header from "./components/Header/header";
 
 function App() {
   const { tg, onToggleButton } = useTelegram();
@@ -12,7 +13,7 @@ function App() {
   return (
     <div className="App">
       The app is working!
-      <p>Welcome to the Telegram Bot Web App!</p>
+      <Header />
       <button onClick={onToggleButton}>Toggle</button>
     </div>
   );

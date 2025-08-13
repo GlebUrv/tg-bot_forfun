@@ -4,7 +4,7 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Catalog from "./components/Catalog/Catalog";
 import Form from "./components/Form/Form";
-import Header from "./components/Header/Header";
+import Header from "./components/Header/header";
 
 function App() {
   const { tg } = useTelegram();

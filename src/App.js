@@ -19,6 +19,7 @@ function App() {
       <Routes>
         <Route index element={<Catalog />} />
         <Route path={"/form"} element={<Form />} />
+        <Route path={"/catalog"} element={<Catalog />} />
       </Routes>
     </div>
   );

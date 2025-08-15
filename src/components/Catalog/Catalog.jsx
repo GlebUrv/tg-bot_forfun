@@ -24,7 +24,7 @@ const Catalog = () => {
       totalPrice: getTotalPrice(cart),
       queryId,
     };
-    fetch("https://for-fun-bot-backend.onrender.com", {
+    fetch("https://for-fun-bot-backend.onrender.com/web-data", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

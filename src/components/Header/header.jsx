@@ -1,5 +1,5 @@
 import React from "react";
-import "./header.css";
+import "./Header.css";
 import Button from "../Button/Button.jsx";
 import { useTelegram } from "../../hooks/useTelegram.js";
 
